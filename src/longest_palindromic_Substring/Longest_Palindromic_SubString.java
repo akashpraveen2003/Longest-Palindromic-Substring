@@ -47,7 +47,7 @@ public class Longest_Palindromic_SubString {
 				{
 					dp[i][j]=1;		
 				}
-				else if(j-i==1)			// Checks if two characters are palindrome i.e here 1 iss given because 0 based indexing
+				else if(j-i==1)				// Checks if two characters are palindrome i.e here 1 iss given because 0 based indexing
 				{
 					if(s.charAt(i)==s.charAt(j))
 					{
